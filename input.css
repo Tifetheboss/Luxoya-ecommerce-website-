@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#bag-img, #mic-img, #search-img{
+    width: 18px;
+    height: 18px;
+}
+
