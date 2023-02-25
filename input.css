@@ -2,8 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+
 #bag-img, #mic-img, #search-img{
     width: 18px;
     height: 18px;
+}
+
+/* body{
+    min-width: 100vw;
+    overflow-x: hidden;
+} */
+
+#img-1{
+    position: relative;
+    height: 650px;
+    width: 450px;
+    z-index: 1;
+}
+
+
+
+@media screen and (max-width:1300px) {
+    #img-1{
+        height: 600px;
+        width: 350px;
+    }
+    #vector-13{
+        width: 80px;
+    }
+    #vector-14{
+        width: 100px;
+    }
 }
 

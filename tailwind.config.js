@@ -12,6 +12,11 @@ module.exports = {
         roboto: "'Roboto', sans-serif",
         kepler: "'Kepler Std', sans-serif",
       },
+      width: {
+        window: "83%",
+        window2: "37%",
+      },
+   
     },
   },
   plugins: [],

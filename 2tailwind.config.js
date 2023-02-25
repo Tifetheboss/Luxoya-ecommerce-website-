@@ -104,6 +104,7 @@ module.exports = {
       64: '16rem',
       72: '18rem',
       80: '20rem',
+      84: '22rem',
       96: '24rem',
     },
     animation: {
@@ -927,6 +928,7 @@ module.exports = {
       '9/12': '75%',
       '10/12': '83.333333%',
       '11/12': '91.666667%',
+      window: '87%',
       full: '100%',
       screen: '100vw',
       min: 'min-content',
