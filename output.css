@@ -858,6 +858,9 @@ video {
 
 .category-name{
   margin-top: 40px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .category-types{
@@ -878,15 +881,49 @@ video {
   transform: translate(-50%, -50%);
   height: 382px;
   width: 374px;
+  /* height: 50%;
+    width: 60%; */
   background: rgba(255, 255, 255, 0.8);
 }
 
+.each-category .shop-now{
+  position: absolute;
+  left: 47%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  background-color:white;
+  padding: 15px 60px;
+  z-index: 1000;
+  border: 2px solid #34251F;
+  cursor: pointer;
+}
+
+.each-category .overlay{
+  display: none;
+}
+
+.each-category .shop-now:hover + .overlay{
+  display: block;
+}
+
 .each-category .overlay-text{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* margin-top: auto; */
+  height: 124px;
+  width: 279px;
+  padding:86px 0 0 56px;
+}
+
+.each-category .skin-care{
+  width: 450px;
+}
+
+.each-category .overlay-text h2{
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 62px;
+  margin-bottom: 40px;
 }
 
 /* Starman ends */
