@@ -41,3 +41,69 @@
     }
 }
 
+
+/* Starman begins */
+
+.men-hero{
+    margin-top: 50px;
+    height: 100%;
+  }
+  
+.dot{
+    margin-top: 35rem; 
+  }
+  
+.dot2{
+    margin-top: 100px;
+  }
+
+  .dot3{
+    margin-top: 85rem;
+  }
+
+  .dot4{
+    margin-top: 15rem;
+  }
+  
+  .breadcrumbs{
+    margin-top: 20px;
+  }
+  
+  .category-name{
+    margin-top: 40px;
+  }
+  
+.category-types{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    width: 100%;
+  }
+
+  .each-category{
+    position: relative;
+  }
+
+  .each-category .overlay{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 382px;
+    width: 374px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .each-category .overlay-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: auto; */
+  }
+
+  
+
+
+  
+  /* Starman ends */
