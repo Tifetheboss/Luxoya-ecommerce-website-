@@ -6,18 +6,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 100vw;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 #bag-img, #mic-img, #search-img{
     width: 18px;
     height: 18px;
 }
-
-/* body{
-    min-width: 100vw;
-    overflow-x: hidden;
-} */
 
 #img-1{
     position: relative;
@@ -26,6 +24,31 @@
     z-index: 1;
 }
 
+.second-section-img{
+  height: 650px;
+    width: 450px;
+}
+/* 
+#frame{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  height: 300px;
+  width: 300px;
+}
+
+.vector-14{
+  position: relative;
+  left: 50%;
+  top: 20%;
+
+} */
+
+.brand{
+  height: 150px;
+}
 
 
 @media screen and (max-width:1300px) {
@@ -41,6 +64,7 @@
     }
 }
 
+/* tife ends */
 
 /* Starman begins */
 
