@@ -7,6 +7,7 @@ module.exports = {
         primary: '#FAF6F2',
         secondary: '#34251F',
         inputbg: '#E3E3E3',
+        white : '#FFFFFF',
       },
         //  npx tailwindcss -i ./input.css -o ./output.css --watch //
       fontFamily: {
