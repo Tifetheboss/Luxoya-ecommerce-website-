@@ -126,63 +126,53 @@ body{
 
 /* Starman begins */
 
-.men-hero{
-    margin-top: 50px;
-    height: 100%;
-  }
-  
-.dot{
-    margin-top: 35rem; 
-  }
-  
-.dot2{
-    margin-top: 100px;
-  }
-
-.dot3{
-    margin-top: 85rem;
-  }
-
-.dot4{
-    margin-top: 15rem;
-  }
-  
-.breadcrumbs{
-    margin-top: 20px;
-  }
-  
-.category-name{
-    margin-top: 40px;
+  .breadcrumbs{
     padding-bottom: 20px;
   }
 
-  .category-name{
-    text-transform: uppercase;
-    font-weight: 700;
+  .center-section{
+    width: 83%;
+    margin-inline: auto;
   }
-  
-.category-types{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+
+  .men-hero-img{
     width: 100%;
   }
 
-.each-category{
-    position: relative;
+
+  .categorey-img{
+    width: 100%;
+    height: 100%;
+  } 
+
+
+  .category-types {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 3.5rem;
   }
 
-.each-category .overlay{
+  .each-category {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    position: relative;
+    padding-bottom: 50px;
+  }
+
+
+  .each-category .overlay{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     height: 382px; 
     width: 374px;
-    /* height: 50%;
-    width: 60%; */
-    background: rgba(255, 255, 255, 0.8);
-  }
+    background-color: rgba(255, 255, 255, 0.7);
+  } 
 
   .each-category .shop-now{
     position: absolute;
@@ -203,19 +193,15 @@ body{
     display: none;
   } 
 
-   .each-category .shop-now:hover + .overlay{
+  .each-category .shop-now:hover + .overlay{
     display: block;
   }
 
 
-.each-category .overlay-text{
+  .each-category .overlay-text{
     height: 124px;
     width: 279px;
     padding:86px 0 0 56px;
-  }
-
-  .each-category .skin-care{
-    width: 450px;
   }
 
   .each-category .overlay-text h2{
