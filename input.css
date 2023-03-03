@@ -41,6 +41,12 @@ body{
   width: 300px;
 }
 
+
+.fourth-section-img{
+  height: 650px;
+    width: 450px;
+}
+
 #frame{
   position: absolute;
   left: 50%;
