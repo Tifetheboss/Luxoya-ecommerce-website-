@@ -1074,14 +1074,21 @@ body{
 }
 
 .category-types{
+  /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  /* gap: 4rem; */
+  /* width: 100%; */
+  /* justify-content: space-between; */
+  /* display: flex;
+    justify-content: space-between; */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  width: 100%;
 }
 
 .each-category{
   position: relative;
+  height: 650px;
+  width: 450px;
 }
 
 .each-category .overlay{
@@ -1134,6 +1141,14 @@ body{
   font-weight: 600;
   line-height: 62px;
   margin-bottom: 40px;
+}
+
+.cat{
+  width: 83%;
+  margin-inline: auto;
+  background-color: red !important;
+  margin-bottom: 100px;
+  height: 30px;
 }
 
 /* Starman ends */
