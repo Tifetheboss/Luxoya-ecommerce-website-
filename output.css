@@ -1184,6 +1184,21 @@ body{
   padding-bottom: 20px;
 }
 
+.breadcrumbs p{
+  padding-bottom: 20px;
+  font-size: 27px;
+  color: rgba(121, 121, 121, 1);
+}
+
+.breadcrumbs h2{
+  font-style: bold;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
 .center-section{
   width: 83%;
   margin-inline: auto;

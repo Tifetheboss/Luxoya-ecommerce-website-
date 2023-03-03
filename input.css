@@ -124,10 +124,26 @@ body{
 
 /* tife ends */
 
+
 /* Starman begins */
 
   .breadcrumbs{
     padding-bottom: 20px;
+  }
+
+  .breadcrumbs p{
+    padding-bottom: 20px;
+    font-size: 27px;
+    color: rgba(121, 121, 121, 1);
+  }
+
+  .breadcrumbs h2{
+    font-style: bold;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    padding-top: 40px;
   }
 
   .center-section{
@@ -139,12 +155,10 @@ body{
     width: 100%;
   }
 
-
   .categorey-img{
     width: 100%;
     height: 100%;
   } 
-
 
   .category-types {
     display: flex;
@@ -162,7 +176,6 @@ body{
     position: relative;
     padding-bottom: 50px;
   }
-
 
   .each-category .overlay{
     position: absolute;
@@ -196,7 +209,6 @@ body{
   .each-category .shop-now:hover + .overlay{
     display: block;
   }
-
 
   .each-category .overlay-text{
     height: 124px;
