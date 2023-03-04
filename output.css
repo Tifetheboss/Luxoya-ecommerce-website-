@@ -1181,7 +1181,14 @@ body{
 /* Starman begins */
 
 .breadcrumbs{
-  padding-bottom: 20px;
+  padding-bottom: 12px;
+}
+
+.breadcrumbs .next{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
 }
 
 .breadcrumbs p{
@@ -1194,8 +1201,7 @@ body{
   font-style: bold;
   font-weight: 700;
   font-size: 36px;
-  text-transform: uppercase;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   padding-top: 40px;
 }
 
@@ -1206,6 +1212,21 @@ body{
 
 .men-hero-img{
   width: 100%;
+}
+
+.men-hero{
+  position: relative;
+}
+
+.hero-headies{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-style: Bold Semicondensed;
+  color: #191F2D;
+  font-size: 80px;
+  text-align: center;
 }
 
 .categorey-img{
@@ -1240,10 +1261,14 @@ body{
   background-color: rgba(255, 255, 255, 0.7);
 }
 
+.each-category .short{
+  height: 280px;
+}
+
 .each-category .shop-now{
   position: absolute;
-  left: 47%;
-  top: 65%;
+  left: 50%;
+  top: 60%;
   transform: translate(-50%, -50%);
   font-size: 24px;
   font-weight: 400;
@@ -1265,8 +1290,8 @@ body{
 
 .each-category .overlay-text{
   height: 124px;
-  width: 279px;
-  padding:86px 0 0 56px;
+  width: 340px;
+  padding:95px 0 0 56px;
 }
 
 .each-category .overlay-text h2{
