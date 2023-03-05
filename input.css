@@ -85,7 +85,7 @@ body{
   top: 65%;
   transform: translate(-50%, -50%);
   font-size: 24px;
-    padding: 6px 11px;
+  padding: 6px 11px;
 }
 
 
@@ -95,7 +95,7 @@ body{
   top: 65%;
   transform: translate(-50%, -50%);
   font-size: 16px;
-    padding: px px;
+  padding: px px;
 }
 
 .vector-14{
@@ -181,7 +181,7 @@ body{
     height: 100%;
   } 
 
-  .category-types {
+  .category-types{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -201,7 +201,7 @@ body{
   .each-category .overlay{
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translate(-50%, -50%);
     height: 382px; 
     width: 374px;
@@ -215,37 +215,158 @@ body{
   .each-category .shop-now{
     position: absolute;
     left: 50%;
-    top: 60%;
+    top: 55%;
     transform: translate(-50%, -50%);
     font-size: 24px;
     font-weight: 400;
-    line-height: 30px;
     background-color:white;
-    padding: 15px 60px;
+    width: 260px;
+    line-height: 60px;
+    text-align: center;
     z-index: 1000;
     border: 2px solid #34251F;
     cursor: pointer;
   }
 
-  .each-category .overlay{
+  /* .each-category .overlay{
     display: none;
   } 
 
   .each-category .shop-now:hover + .overlay{
     display: block;
-  }
+  } */
 
   .each-category .overlay-text{
     height: 124px;
-    width: 340px;
     padding:95px 0 0 56px;
+    width: 100%;
   }
 
   .each-category .overlay-text h2{
     font-size: 60px;
     font-weight: 600;
     line-height: 62px;
-    margin-bottom: 40px;
   }
+
+
+  /* =====================MEDIA QUERIES=======================*/
+
+  /* Tablet view */
+
+  @media only screen and (max-width: 1200px) {
+    .hero-headies{
+      font-size: 60px;
+    }
+
+    .each-category .shop-now{
+      width: 180px;
+      line-height: 45px;
+      font-size: 20px;
+    }
+
+    .each-category .overlay{
+      height: 250px; 
+      width: 250px;
+    } 
+
+    .each-category .overlay-text{
+      height: 124px;
+      padding:80px 0 0 32px;
+      width: 100%;
+    }
+    
+    .each-category .overlay-text h2{
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 30px;
+    }
+  
+  
+  }
+
+    /* Tablet view */
+
+  @media only screen and (max-width: 992px) {
+    .hero-headies{
+       font-size: 40px;
+    }
+
+    .breadcrumbs h2{
+      font-size: 20px;
+    }
+
+    .each-category .shop-now{
+      width: 150px;
+      line-height: 40px;
+      font-size: 18px;
+    }
+  
+    .each-category .overlay{
+      height: 200px; 
+      width: 200px;
+    } 
+
+    .each-category .overlay-text{
+      height: 124px;
+      padding: 60px 0 0 32px;
+    }
+    
+    .each-category .overlay-text h2{
+      font-size: 25px;
+    }
+
+    }
+
+
+    /* Mobile view */
+
+    @media only screen and (max-width: 576px) {
+      .hero-headies{
+         font-size: 25px;
+      } 
+
+      .each-category .shop-now{
+        width: 130px;
+        line-height: 40px;
+        font-size: 16px;
+      }  
+
+      .each-category .overlay{
+        height: 200px; 
+        width: 200px;
+      } 
+  
+      .each-category .overlay-text{
+        height: 134px;
+        padding:60px 0 0 0px;
+        width: 90%;
+      }
+      
+      .each-category .overlay-text h2{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+      }
+
+      .category-types{
+        flex-direction: column;     
+      }
+
+      .each-category img{
+        width: 600px;
+        align-items: center;
+        margin-left: 5px;
+      }
+
+      .breadcrumbs h2{
+        font-style: bold;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+      }
+
+      
+      }
 
   /* Starman ends */
