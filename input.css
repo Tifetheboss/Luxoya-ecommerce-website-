@@ -370,3 +370,13 @@ body{
       }
 
   /* Starman ends */
+
+  /* men product */
+
+  .product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 3.5rem;
+  }

@@ -1417,6 +1417,16 @@ body{
 
 /* Starman ends */
 
+/* men product */
+
+.product{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 3.5rem;
+}
+
 .placeholder\:text-placeholder::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(33 33 33 / var(--tw-text-opacity));
