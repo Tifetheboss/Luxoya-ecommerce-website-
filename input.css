@@ -440,9 +440,15 @@ body {
   flex-wrap: wrap;
 }
 
-.each-product img {
+.each-product .product-image {
   width: 100%;
   height: 250px;
+  background: black;
+}
+
+.each-product .product-image img {
+  width: 100%;
+  height: 100%;
 }
 
 .rating {
