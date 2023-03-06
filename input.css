@@ -420,15 +420,6 @@ body {
 
 }
 
-/* men product */
-
-/* .product {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  gap: 3.5rem;
-} */
 
 .product {
   display: grid;
@@ -442,7 +433,7 @@ body {
 
 .each-product .product-image {
   width: 100%;
-  height: 250px;
+  height: 548.33px;
   background: black;
 }
 
@@ -458,8 +449,8 @@ body {
 }
 
 .rating .bag img {
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
 }
 
 .rating .star img {
