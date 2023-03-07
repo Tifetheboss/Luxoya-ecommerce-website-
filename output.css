@@ -1475,6 +1475,11 @@ body {
   height: 100%;
 }
 
+.transform {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .rating {
   display: flex;
   align-items: center;
