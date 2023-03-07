@@ -1,3 +1,4 @@
+/* tife begins */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,7 +13,6 @@ body {
   overflow-x: hidden;
 }
 
-<<<<<<< HEAD
 @layer base{
  @media screen and (max-width:1225px){
   #time-div{
@@ -24,60 +24,7 @@ body {
 #bag-img, #mic-img, #search-img{
     width: 18px;
     height: 18px;
-=======
-
-
-
-/* Hamburger Menue */
-.hamburger {
-  cursor: pointer;
-  width: 24px;
-  height: 24px;
-  transition: all 0.25s;
-  position: relative;
->>>>>>> 4bac16bc604ac46a420f82513777db85be113ef1
 }
-
-
-.hamburger-top,
-.hamburger-middle,
-.hamburger-bottom {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 24px;
-  height: 2px;
-  background: #000;
-  transform: rotate(0);
-  transition: all 0.5s;
-}
-
-.hamburger-middle {
-  transform: translateY(7px);
-}
-
-.hamburger-bottom {
-  transform: translateY(14px);
-}
-
-.open {
-  transform: rotate(90deg);
-  transform: translateY(0px);
-}
-
-.open .hamburger-top {
-  transform: rotate(45deg) translateY(6px) translate(6px);
-}
-
-.open .hamburger-middle {
-  display: none;
-}
-
-.open .hamburger-bottom {
-  transform: rotate(-45deg) translateY(6px) translate(-6px);
-}
-
-/* Abdul muizz end */
 
 
 #bag-img,
@@ -106,15 +53,14 @@ body {
   border-bottom-left-radius: 90px;
 }
 
-<<<<<<< HEAD
 .third-section-img{
   height: 420px;
   width: 320px;
-=======
+}
+
 .third-section-img {
   height: 400px;
   width: 300px;
->>>>>>> 4bac16bc604ac46a420f82513777db85be113ef1
 }
 
 
@@ -178,7 +124,6 @@ body {
   padding: 6px 11px;
 }
 
-<<<<<<< HEAD
 #frame2-btn{
   margin-left: 34px;
   font-size: 16px;
@@ -186,16 +131,6 @@ body {
 
 #frame3-btn{
   margin-left:29px;
-=======
-
-#frame2-btn {
-  position: absolute;
-  left: 50%;
-  top: 65%;
-  transform: translate(-50%, -50%);
-  font-size: 16px;
-  padding: px px;
->>>>>>> 4bac16bc604ac46a420f82513777db85be113ef1
 }
 
 .vector-14 {
@@ -225,6 +160,57 @@ body {
 }
 
 /* tife ends */
+
+
+/* Hamburger Menue */
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+/* Abdul muizz end */
 
 
 /* Starman begins */

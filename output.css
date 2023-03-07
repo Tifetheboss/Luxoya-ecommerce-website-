@@ -1,6 +1,6 @@
-/*
-! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
-*/
+/* tife begins */
+
+/* ! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -1078,59 +1078,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Hamburger Menue */
-
-.hamburger {
-  cursor: pointer;
-  width: 24px;
-  height: 24px;
-  transition: all 0.25s;
-  position: relative;
-}
-
-.hamburger-top,
-.hamburger-middle,
-.hamburger-bottom {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 24px;
-  height: 2px;
-  background: #000;
-  transform: rotate(0);
-  transition: all 0.5s;
-}
-
-.hamburger-middle {
-  transform: translateY(7px);
-}
-
-.hamburger-bottom {
-  transform: translateY(14px);
-}
-
-.open {
-  transform: rotate(90deg);
-  transform: translateY(0px);
-}
-
-.open .hamburger-top {
-  transform: rotate(45deg) translateY(6px) translate(6px);
-}
-
-.open .hamburger-middle {
-  display: none;
-}
-
-.open .hamburger-bottom {
-  transform: rotate(-45deg) translateY(6px) translate(-6px);
-}
-
-/* Abdul muizz end */
-
-#bag-img,
-#mic-img,
-#search-img {
+#bag-img, #mic-img, #search-img{
   width: 18px;
   height: 18px;
 }
@@ -1154,15 +1102,9 @@ body {
   border-bottom-left-radius: 90px;
 }
 
-<<<<<<< HEAD
 .third-section-img{
-  height: 420px;
-  width: 320px;
-=======
-.third-section-img {
   height: 400px;
   width: 300px;
->>>>>>> 4bac16bc604ac46a420f82513777db85be113ef1
 }
 
 .fourth-section-img {
@@ -1224,16 +1166,8 @@ body {
   padding: 6px 11px;
 }
 
-<<<<<<< HEAD
 #frame2-btn{
   margin-left: 34px;
-=======
-#frame2-btn {
-  position: absolute;
-  left: 50%;
-  top: 65%;
-  transform: translate(-50%, -50%);
->>>>>>> 4bac16bc604ac46a420f82513777db85be113ef1
   font-size: 16px;
 }
 
@@ -1268,6 +1202,56 @@ body {
 }
 
 /* tife ends */
+
+/* Hamburger Menue */
+
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-middle {
+  transform: translateY(7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(14px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.open .hamburger-top {
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+  display: none;
+}
+
+.open .hamburger-bottom {
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+/* Abdul muizz end */
 
 /* Starman begins */
 
