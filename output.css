@@ -1327,11 +1327,11 @@ body {
   cursor: pointer;
 }
 
-.each-category .overlay{
+.each-category .overlay {
   display: none;
 }
 
-.each-category .shop-now:hover + .overlay{
+.each-category .shop-now:hover+.overlay {
   display: block;
 }
 
@@ -1472,7 +1472,7 @@ body {
 
 .each-product .product-image img {
   width: 100%;
-  height: 250px;
+  height: 100%;
 }
 
 .rating {
