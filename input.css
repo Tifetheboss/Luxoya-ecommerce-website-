@@ -421,15 +421,6 @@ body {
 }
 
 
-/* men product */
-
-/* .product {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  gap: 3.5rem;
-} */
 
 .product {
   display: grid;
@@ -441,10 +432,16 @@ body {
   flex-wrap: wrap;
 }
 
-/* .each-product img {
+.each-product .product-image {
+  width: 100%;
+  height: 548.33px;
+  background: black;
+}
+
+.each-product .product-image img {
   width: 100%;
   height: 250px;
-} */
+}
 
 .rating {
   display: flex;
@@ -453,8 +450,8 @@ body {
 }
 
 .rating .bag img {
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
 }
 
 .rating .star img {
