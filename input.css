@@ -443,6 +443,7 @@ body {
 }
 
 .transform {
+  font-size: 44px;
   font-weight: bold;
   text-transform: uppercase;
 }
