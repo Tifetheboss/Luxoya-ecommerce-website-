@@ -468,11 +468,7 @@ body {
   display: flex;
 }
 
-@media only screen and (max-width: 576px) {
-  .product {
-    grid-template-columns: 1fr;
-  }
-}
+
 
 /* login */
 .login {
@@ -481,21 +477,98 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* background: #34251F; */
-  background: #8C8787;
+  background: #FAF6F2;
   overflow: hidden;
-  /* color: ; */
 }
 
 .left,
 .right {
   height: 100%;
-  padding: 40px;
+  padding: 30px;
+}
+
+.left h1,
+.left p {
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .left {
   border-top-right-radius: 45px;
   background: #34251F;
-  color: #8C8787;
+  color: #FAF6F2;
   display: flex;
-  /* flex */
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.left img {
+  position: absolute;
+  bottom: -30px;
+}
+
+.right h1 {
+  margin: 15px 0;
+  text-align: center;
+  color: #34251F;
+}
+
+.right {
+  color: #34251F;
+  padding: 40px;
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+}
+
+.right .info input {
+  width: 100%;
+  background: none;
+  outline: none;
+}
+
+.right .info {
+  border-radius: 8px;
+  margin: 15px 0;
+  width: 100;
+  padding: 10px;
+  border: 1px solid #34251F;
+}
+
+.check {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #34251F;
+  color: #FAF6F2;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn_google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 576px) {
+  .product {
+    grid-template-columns: 1fr;
+  }
+
+  .login {
+    grid-template-columns: 1fr;
+  }
+
+  .left {
+    display: none;
+  }
 }
