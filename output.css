@@ -1475,10 +1475,10 @@ body {
   flex-wrap: wrap;
 }
 
-.each-product img {
+/* .each-product img {
   width: 100%;
   height: 250px;
-}
+} */
 
 .rating {
   display: flex;
@@ -1486,10 +1486,10 @@ body {
   justify-content: space-between;
 }
 
-.rating .bag img {
+/* .rating .bag img {
   width: 20px;
   height: 20px;
-}
+} */
 
 .rating .star img {
   width: 20px;
