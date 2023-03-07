@@ -1468,7 +1468,6 @@ body {
 .each-product .product-image {
   width: 100%;
   height: 548.33px;
-  background: black;
 }
 
 .each-product .product-image img {
@@ -1500,6 +1499,33 @@ body {
   .product {
     grid-template-columns: 1fr;
   }
+}
+
+/* login */
+
+.login {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background: #34251F; */
+  background: #8C8787;
+  overflow: hidden;
+  /* color: ; */
+}
+
+.left,
+.right {
+  height: 100%;
+  padding: 40px;
+}
+
+.left {
+  border-top-right-radius: 45px;
+  background: #34251F;
+  color: #8C8787;
+  display: flex;
+  /* flex */
 }
 
 .placeholder\:text-placeholder::-moz-placeholder {
