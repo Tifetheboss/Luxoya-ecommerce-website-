@@ -419,9 +419,9 @@ video {
   display: none;
 }
 
-@media screen and (max-width:1225px){
-  #time-div{
-    padding: 14px 14px ;
+@media screen and (max-width:1225px) {
+  #time-div {
+    padding: 14px 14px;
   }
 }
 
@@ -1078,7 +1078,9 @@ body {
   overflow-x: hidden;
 }
 
-#bag-img, #mic-img, #search-img{
+#bag-img,
+#mic-img,
+#search-img {
   width: 18px;
   height: 18px;
 }
@@ -1102,7 +1104,7 @@ body {
   border-bottom-left-radius: 90px;
 }
 
-.third-section-img{
+.third-section-img {
   height: 400px;
   width: 300px;
 }
@@ -1139,19 +1141,19 @@ body {
   transform: translate(-50%, -50%);
 }
 
-#frame-icon{
+#frame-icon {
   position: absolute;
   left: 41%;
   top: 35%;
   transform: translate(-50%, -50%);
 }
 
-#frame-icon2{
+#frame-icon2 {
   width: 30px;
   margin-left: 35px;
 }
 
-#frame3-icon{
+#frame3-icon {
   margin-left: 11%;
   margin-top: 25%;
   margin-bottom: 20%;
@@ -1166,13 +1168,13 @@ body {
   padding: 6px 11px;
 }
 
-#frame2-btn{
+#frame2-btn {
   margin-left: 34px;
   font-size: 16px;
 }
 
-#frame3-btn{
-  margin-left:29px;
+#frame3-btn {
+  margin-left: 29px;
 }
 
 .vector-14 {
@@ -1583,6 +1585,10 @@ body {
   gap: 15px;
 }
 
+.right a {
+  text-decoration: underline;
+}
+
 .right .info input {
   width: 100%;
   background: none;
@@ -1612,7 +1618,12 @@ body {
   cursor: pointer;
 }
 
+.btn_google i {
+  font-size: 20px;
+}
+
 .btn_google {
+  gap: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
