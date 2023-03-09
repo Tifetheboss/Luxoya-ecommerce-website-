@@ -428,24 +428,26 @@ body {
 
   .each-category .overlay-text {
     height: 134px;
-    padding: 60px 0 0 0px;
-    width: 90%;
+    padding: 60px 0;
   }
 
   .each-category .overlay-text h2 {
     font-size: 20px;
     font-weight: 600;
     line-height: 25px;
+    text-align: center;
   }
 
   .category-types {
     flex-direction: column;
+    gap: 1rem;
   }
 
   .each-category img {
     width: 600px;
     align-items: center;
     margin-left: 5px;
+
   }
 
   /* Starman ends */
