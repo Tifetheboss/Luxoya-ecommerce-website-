@@ -1,3 +1,4 @@
+/* tife begins */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,7 +13,155 @@ body {
   overflow-x: hidden;
 }
 
+@layer base {
+  @media screen and (max-width:1225px) {
+    #time-div {
+      padding: 14px 14px;
+    }
+  }
+}
 
+#bag-img,
+#mic-img,
+#search-img {
+  width: 18px;
+  height: 18px;
+}
+
+
+#bag-img,
+#mic-img,
+#search-img {
+  width: 18px;
+  height: 18px;
+}
+
+#img-1 {
+  position: relative;
+  height: 650px;
+  width: 450px;
+  z-index: 1;
+}
+
+.second-section-img {
+  height: 650px;
+  width: 450px;
+}
+
+.second-section2-img {
+  height: 580px;
+  width: 435px;
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 90px;
+}
+
+.third-section-img {
+  height: 420px;
+  width: 320px;
+}
+
+.third-section-img {
+  height: 400px;
+  width: 300px;
+}
+
+
+.fourth-section-img {
+  height: 650px;
+  width: 450px;
+}
+
+#frame {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  height: 300px;
+  width: 300px;
+}
+
+#frame2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.8);
+  height: 220px;
+  width: 220px;
+}
+
+#frame-text {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+
+}
+
+#frame-icon {
+  position: absolute;
+  left: 41%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+
+#frame-icon2 {
+  width: 30px;
+  margin-left: 35px;
+}
+
+#frame3-icon {
+  margin-left: 11%;
+  margin-top: 25%;
+  margin-bottom: 20%;
+}
+
+#frame-btn {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  padding: 6px 11px;
+}
+
+#frame2-btn {
+  margin-left: 34px;
+  font-size: 16px;
+}
+
+#frame3-btn {
+  margin-left: 29px;
+}
+
+.vector-14 {
+  position: absolute;
+  left: 39%;
+  top: 100%;
+  margin-top: 20px;
+}
+
+.brand {
+  height: 150px;
+}
+
+@media screen and (max-width:1300px) {
+  #img-1 {
+    height: 600px;
+    width: 350px;
+  }
+
+  #vector-13 {
+    width: 80px;
+  }
+
+  #vector-14 {
+    width: 100px;
+  }
+}
+
+/* tife ends */
 
 
 /* Hamburger Menue */
@@ -64,123 +213,6 @@ body {
 }
 
 /* Abdul muizz end */
-
-
-#bag-img,
-#mic-img,
-#search-img {
-  width: 18px;
-  height: 18px;
-}
-
-#img-1 {
-  position: relative;
-  height: 650px;
-  width: 450px;
-  z-index: 1;
-}
-
-.second-section-img {
-  height: 650px;
-  width: 450px;
-}
-
-.second-section2-img {
-  height: 580px;
-  width: 435px;
-  border-top-right-radius: 90px;
-  border-bottom-left-radius: 90px;
-}
-
-.third-section-img {
-  height: 400px;
-  width: 300px;
-}
-
-
-.fourth-section-img {
-  height: 650px;
-  width: 450px;
-}
-
-#frame {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, 0.8);
-  height: 300px;
-  width: 300px;
-}
-
-#frame2 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, 0.8);
-  height: 200px;
-  width: 200px;
-}
-
-#frame-text {
-  position: absolute;
-  left: 50%;
-  top: 35%;
-  transform: translate(-50%, -50%);
-}
-
-
-/* #frame-text:hover,#frame:hover{
-  visibility: hidden;
-} */
-
-#frame-btn {
-  position: absolute;
-  left: 50%;
-  top: 65%;
-  transform: translate(-50%, -50%);
-  font-size: 24px;
-  padding: 6px 11px;
-}
-
-
-#frame2-btn {
-  position: absolute;
-  left: 50%;
-  top: 65%;
-  transform: translate(-50%, -50%);
-  font-size: 16px;
-  padding: px px;
-}
-
-.vector-14 {
-  position: absolute;
-  left: 39%;
-  top: 100%;
-  margin-top: 20px;
-}
-
-.brand {
-  height: 150px;
-}
-
-@media screen and (max-width:1300px) {
-  #img-1 {
-    height: 600px;
-    width: 350px;
-  }
-
-  #vector-13 {
-    width: 80px;
-  }
-
-  #vector-14 {
-    width: 100px;
-  }
-}
-
-/* tife ends */
 
 
 /* Starman begins */
@@ -286,13 +318,13 @@ body {
   cursor: pointer;
 }
 
-.each-category .overlay{
-    display: none;
-  } 
+.each-category .overlay {
+  display: none;
+}
 
-  .each-category .shop-now:hover + .overlay{
-    display: block;
-  }
+.each-category .shop-now:hover+.overlay {
+  display: block;
+}
 
 .each-category .overlay-text {
   height: 124px;
@@ -435,12 +467,17 @@ body {
 .each-product .product-image {
   width: 100%;
   height: 548.33px;
-  background: black;
 }
 
 .each-product .product-image img {
   width: 100%;
-  height: 250px;
+  height: 100%;
+}
+
+.transform {
+  font-size: 44px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .rating {
@@ -463,8 +500,116 @@ body {
   display: flex;
 }
 
+
+
+/* login */
+.login {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background: #34251F; */
+  background: #FAF6F2;
+  overflow: hidden;
+}
+
+.left,
+.right {
+  height: 100%;
+  padding: 30px;
+}
+
+.left h1,
+.left p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.left {
+  border-top-right-radius: 45px;
+  background: #34251F;
+  color: #FAF6F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.left img {
+  position: absolute;
+  bottom: -30px;
+}
+
+.right h1 {
+  margin: 15px 0;
+  text-align: center;
+  color: #34251F;
+}
+
+.right {
+  color: #34251F;
+  padding: 40px;
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+}
+
+.right a {
+  text-decoration: underline;
+}
+
+.right .info input {
+  width: 100%;
+  background: none;
+  outline: none;
+}
+
+.right .info {
+  border-radius: 8px;
+  margin: 15px 0;
+  width: 100;
+  padding: 10px;
+  border: 1px solid #34251F;
+}
+
+.check {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #34251F;
+  color: #FAF6F2;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn_google i {
+  font-size: 20px;
+}
+
+.btn_google {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 576px) {
   .product {
     grid-template-columns: 1fr;
+  }
+
+  .login {
+    grid-template-columns: 1fr;
+  }
+
+  .left {
+    display: none;
   }
 }
