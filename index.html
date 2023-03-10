@@ -19,26 +19,41 @@
 <body class="bg-primary">
     <div id="container" class="grid place-content-center">
         <nav
-            class="w-window m-auto text-secondary font-roboto border-b-secondary border-b flex justify-between items-center pt-10 pb-4 text-lg">
-            <span>
-                <p class="font-bold text-3xl">LUXOYA</p>
+            class="w-window m-auto max-[1024px]:w-full text-secondary font-roboto border-b-secondary border-b flex justify-between items-center pt-10 max-[1024px]:pt-4 pb-4 text-lg relative max-[1024px]:px-6">
+            <span class="flex items-center">
+                <nav class="min-[1024px]:hidden">
+                    <div class="hamb">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="nav2">
+                        <ul id="tags" class="text-xl flex flex-col">
+                            <li></li>
+                        </ul>
+                    </span>
+                </nav>
+                <p class="font-bold text-3xl max-[1024px]:hidden">LUXOYA</p>
             </span>
             <span class="max-[1300px]:ml-10 ml-40 max-[1300px]:mr-4 flex font-medium max-[1024px]:hidden">
                 <a href="/men.html" class="hover:border-b-2 hover:border-secondary">MEN</a>
                 <a href="/women.html" class="hover:border-b-2 hover:border-secondary mx-10">WOMEN</a>
                 <a href="/accessories.html" class="hover:border-b-2 hover:border-secondary">ACCESSORIES</a>
             </span>
-            <span class="flex items-center max-[1024px]:hidden">
+            <span class="flex items-center justify-center">
                 <span class="relative mr-5">
-                    <button class="absolute top-0 left-0 w-6 pl-2 h-full">
+                    <button class="absolute top-0 left-0 w-6 pl-2 h-full max-[1024px]:hidden">
                         <img id="search-img" src="/img/nav-img/Vector (11).png" alt="search-img" />
                     </button>
-                    <input class="w-full h-full outline-none block bg-inputbg pl-8 pr-7 py-1 rounded-2xl" type="text"
+                    <input class="w-full h-full outline-none block bg-inputbg pl-8 pr-7 py-1 rounded-2xl max-[1024px]:hidden" type="text"
                         placeholder="Search Luxoya" />
-                    <button class="absolute top-0 right-0 w-6 h-full">
+                    <button class="absolute top-0 right-0 w-6 h-full max-[1024px]:hidden">
                         <img id="mic-img" src="/img/nav-img/Vector (12).png" alt="mic-icon" />
                     </button>
                 </span>
+                <button class="min-[1024px]:hidden mr-5">
+                    <img class="search-img" src="/img/nav-img/Vector (21).png" alt="">
+                </button>
                 <button>
                     <img id="bag-img" src="/img/nav-img/Group (1).png" alt="bag-icon" />
                 </button>
@@ -49,22 +64,22 @@
         <main>
 
             <!-- First section begins -->
-            <section id="first-section" class="w-window m-auto mt-10">
+            <!-- <section id="first-section" class="w-window m-auto mt-10">
                 <img id="vector-13" class="absolute top-64 left-0" src="/img/nav-img/Vector (13).png" alt="" />
 
                 <div class="flex justify-center items-center">
 
                     <span class="w-window2 text-secondary">
-                        <p class="font-kepler font-bold text-8xl max-[1300px]:text-7xl">
+                        <p class="font-kepler font-bold text-8xl max-[1300px]:text-7xl max-[1024px]:text-5xl">
                             Drive personality with your ambition
                         </p>
-                        <p class="font-roboto text-2xl max-[1300px]:text-xl py-8">
+                        <p class="font-roboto text-2xl max-[1300px]:text-xl max-[1024px]:text-base py-8">
                             Discover a World of fashion at your fingertips with our curated
                             collection of the hottest styles. From Statement pieces to
                             timeless essentials.
                         </p>
                         <button class="flex bg-secondary py-4 px-6 items-center">
-                            <p class="font-roboto text-primary text-xl font-bold pr-4">
+                            <p class="font-roboto text-primary text-xl max-[1024px]:text-base font-bold pr-4">
                                 Explore More
                             </p>
                             <img src="/img/nav-img/Arrow 1.png" alt="arrow-icon" />
@@ -76,9 +91,9 @@
                         <img id="img-1" src="/img/nav-img/Rectangle 4.png" alt="img-1" />
                         <img id="vector-13" class="absolute top-72 right-2" src="/img/nav-img/Vector (13).png" alt="" />
                     </span>
-                </div>
-                <!-- featured clothing brands -->
-                <div class="mt-10 flex items-center justify-between border-y-secondary border-y">
+                </div> -->
+                 <!-- featured clothing brands -->
+                <!-- <div class="mt-10 flex items-center justify-between border-y-secondary border-y">
                     <img class="brand" src="/img/home page imgs/clothing brands/image-removebg-preview (5) 1 (1).png"
                         alt="SHEIN">
                     <img class="brand" src="/img/home page imgs/clothing brands/image-removebg-preview (17) 1.png"
@@ -86,53 +101,52 @@
                     <img class="brand" src="/img/home page imgs/clothing brands/image-removebg-preview (9) 1.png"
                         alt="Pinterest">
                     <img class="brand" src="/img/home page imgs/clothing brands/pngimg 1.png" alt="nike">
-                </div>
-                <!-- featured brands ends -->
+                </div> -->
+                <!--  featured brands ends -->
             </section>
             <!-- first section ends -->
 
             <!-- second section begins -->
             <section id="second-section" class="w-window m-auto pt-10  pb-32">
-                <div class="text-secondary relative">
-                    <p class="font-kepler font-bold text-8xl max-[1300px]:text-7xl text-center px-10">Find the best
+                <div class="text-secondary ">
+                    <p class="font-kepler font-bold text-8xl max-[1300px]:text-7xl max-[874px]:text-5xl max-[500px]:text-4xl max-[874px]:px-1 text-center px-10">Find the best
                         fashion style for you</p>
                     <p
-                        class="font-roboto text-2xl max-[1300px]:text-xl max-[1100px]:px-40 text-center px-64 pt-5 pb-10">
+                        class="font-roboto text-2xl max-[1300px]:text-xl  max-[874px]:text-base max-[1100px]:px-40 max-[874px]:px-10 text-center px-64 pt-5 pb-10">
                         We have a lot of awesome collections from top brands and experienced fashion designers</p>
-                </div>
 
-                <div class="flex item-center justify-center">
-                    <span class="pr-5 relative">
+                <div class="grid grid-cols-2 max-[577px]:grid-cols-1 relative">
+                    <span class="min-[577px]:mr-5 max-[577px]:mb-5 relative">
                         <img class="second-section-img" src="/img/home page imgs/Men jeans category 1.png"
                             alt="male-pic">
                         <span id="frame">
                             <span>
-                                <p id="frame-text" class="font-kepler text-6xl font-semibold text-center">MEN</p>
+                                <p id="frame-text" class="font-kepler text-6xl max-[874px]:text-4xl font-semibold text-center">MEN</p>
                                 <a href="" id="frame-btn"
-                                    class="bg-white border-2 border-secondary font-roboto text-center ">
+                                    class="bg-white border-2 border-secondary text-2xl max-[874px]:text-sm font-roboto text-center ">
                                     SHOP NOW
                                 </a>
                             </span>
                         </span>
                     </span>
-                    <span class="pl-5 relative">
+                    <span class="min-[577px]:ml-5 max-[577px]:my-5 relative">
                         <img class="second-section-img" src="/img/home page imgs/Women 1.png" alt="female-pic">
                         <span id="frame">
                             <span>
-                                <p id="frame-text" class="font-kepler text-6xl font-semibold text-center">WOMEN</p>
+                                <p id="frame-text" class="font-kepler text-6xl max-[874px]:text-4xl font-semibold text-center">WOMEN</p>
                                 <a href="" id="frame-btn"
-                                    class="bg-white border-2 uppercase border-secondary font-roboto text-center">
+                                    class="bg-white border-2 uppercase text-2xl max-[874px]:text-sm border-secondary font-roboto text-center">
                                     Shop Now
                                 </a>
                             </span>
                         </span>
                     </span>
-                </div>
+               
                 <img class="vector-14" src="/img/nav-img/Vector (14).png" alt="">
     </div>
     </section>
 
-    <section id="second-section-2" class="w-window m-auto pb-32">
+    <!-- <section id="second-section-2" class="w-window m-auto pb-32 relative">
         <div class="flex items-end justify-center">
             <span>
                 <img class="second-section2-img" src="./img/home page imgs/Beautiful girl 1.png" alt="">
@@ -169,11 +183,12 @@
                 </div>
             </span>
         </div>
-    </section>
+            <img class="vector2-14" src="/img/nav-img/Vector (14).png" alt="">
+    </section> -->
     <!-- second section ends -->
 
     <!-- third section begins -->
-    <section id="third-section" class="bg-secondary ">
+    <!-- <section id="third-section" class="bg-secondary ">
         <div class="w-window m-auto py-10 flex justify-center gap-10 items-center">
             <span class="text-greyish w-1/3">
                 <p class="font-bold font-kepler max-[1300px]:text-6xl text-7xl ">Best Sellers Products</p>
@@ -225,11 +240,11 @@
             </span>
             </span>
         </div>
-    </section>
+    </section> -->
     <!-- third section ends -->
 
     <!-- fourth section begins -->
-    <section id="fourth-section" class="w-window m-auto pt-10 pb-10">
+    <!-- <section id="fourth-section" class="w-window m-auto pt-10 pb-10 relative">
         <div>
             <p class="font-kepler font-bold max-[1300px]:text-7xl text-8xl pb-10 text-secondary text-center">
                 Five Star Products
@@ -308,14 +323,15 @@
                             </a>
                         </span>
                     </span>
+                    <img class="vector3-14" src="/img/nav-img/Vector (14).png" alt="">
                 </span>
             </span>
         </div>
-    </section>
+    </section> -->
     <!-- fourth section ends -->
 
     <!-- fifth section begins -->
-    <section id="fifth-section" class="bg-secondary ">
+    <!-- <section id="fifth-section" class="bg-secondary ">
         <div class="flex justify-between text-greyish">
             <span class="m-auto w-1/2 px-32 py-10">
                 <p class="text-7xl max-[1300px]:text-6xl font-kepler font-bold">Limited-Time
@@ -333,21 +349,21 @@
                             </div>
                              -->
 
-                    <div id="time-div" class="bg-primary py-6 px-6 text-center">
+                    <!-- <div id="time-div" class="bg-primary py-6 px-6 text-center">
                         <span class="time">
                             <p id="hours" class="font-roboto text-secondary max-[1300px]:text-4xl text-5xl"></p>
                             <small class="text-xl max-[1300px]:text-lg font-roboto text-secondary uppercase">hrs</small>
                         </span>
-                    </div>
+                    </div> -->
 
-                    <div id="time-div" class="bg-primary text-center py-6 px-6">
+                    <!-- <div id="time-div" class="bg-primary text-center py-6 px-6">
                         <span class="time">
                             <p id="mins" class="font-roboto text-secondary max-[1300px]:text-4xl text-5xl"></p>
                             <small
                                 class="text-xl max-[1300px]:text-lg font-roboto text-secondary uppercase">mins</small>
                         </span>
-                    </div>
-
+                    </div> -->
+<!-- 
                     <div id="time-div" class="bg-primary py-6 px-6 text-center">
                         <span class="time">
                             <p id="secs" class="font-roboto text-secondary max-[1300px]:text-4xl text-5xl"></p>
@@ -356,9 +372,9 @@
                         </span>
                     </div>
                 </div>
-            </span>
+            </span> -->
 
-            <span class="max-[1160px]:w-1/2 m-auto">
+            <!-- <span class="max-[1160px]:w-1/2 m-auto">
                 <span class="relative">
                     <img class="fifth-section-img" src="/img/home page imgs/9Pcs Snake Decor Ring 1.png" alt="">
                     <span id="frame">
@@ -377,7 +393,7 @@
                 </span>
             </span>
         </div>
-    </section>
+    </section> --> 
     <!-- fifth section ends -->
 
     <!-- sixtth section begins -->
@@ -394,10 +410,11 @@
 
 
     </main>
-
+<!-- 
     <footer class="bg-secondary ">
-        <div class="w-window m-auto flex justify-between font-roboto text-footer py-10">
-            <span class="w-footer1 text-white text-xl font-extrabold grid gap-5">
+        <div class="w-window m-auto flex justify-between max-[1024px]:flex-col font-roboto text-footer py-10">
+       <div  class='flex justify-between w-1/2 mx-auto max-[1024px]:w-full'>
+            <span class="w-1/2 text-white text-xl max-[1300px]:text-lg font-extrabold grid gap-5">
                 <a href="">FIND A STORE</a>
                 <a href="">LUXOYA JOURNAL</a>
                 <a href="">BECOME A MEMBER</a>
@@ -405,8 +422,8 @@
                 <a href="">PROMO CODES</a>
 
             </span>
-            <span class="w-footer1  text-lg">
-                <p class="text-white text-xl font-extrabold mb-7 ">GET HELP</p>
+            <span class="w-1/2  text-lg max-[1300px]:text-base">
+                <p class="text-white text-xl max-[1300px]:text-lg font-extrabold mb-7 ">GET HELP</p>
                 <span class="grid gap-3.5">
                     <a href="">Order Status</a>
                     <a href="">Shipping And Delivery</a>
@@ -416,33 +433,41 @@
 
                 </span>
             </span>
-            <span class="w-footer1 text-lg ">
-                <p class="text-white text-xl font-extrabold mb-7 ">CATEGORY</p>
+        </div>
+            <div  class='flex justify-between w-1/2 mx-auto max-[1024px]:w-full'>
+            <span class="w-2/6 text-lg max-[1300px]:text-base">
+                <p class="text-white text-xl max-[1300px]:text-lg font-extrabold mb-7 ">CATEGORY</p>
                 <span class="grid gap-3.5">
                     <a href="">Men</a>
                     <a href="">Women</a>
                     <a href="">Accessories</a>
-                    <span class="grid grid-cols-4">
-                        <a href=""> <img src="/img/footer img/Vector (16).png" alt=""></a>
-                        <a href=""> <img src="/img/footer img/Vector (17).png" alt=""></a>
-                        <a href=""> <img src="/img/footer img/Vector (18).png" alt=""></a>
+                    <span class="flex max-[1300px]:flex-col max-[1300px]:gap-5">
+                        <span class="flex">
+                        <a href="" class="mr-8"> <img src="/img/footer img/Vector (16).png" alt=""></a>
+                        <a href="" class="mr-8"> <img src="/img/footer img/Vector (17).png" alt=""></a>
+                    </span>
+                <span class="flex">
+                        <a href=""  class="mr-8 "> <img src="/img/footer img/Vector (18).png" alt=""></a>
                         <a href=""> <img src="/img/footer img/Vector (19).png" alt=""></a>
+                    </span>
                     </span>
                 </span>
             </span>
-            <span class="w-footer2 text-center text-lg">
-                <p class="text-white text-xl font-extrabold mb-7">OUR BLOG</p>
+            <span class="w-2/3 text-center max-[1300px]:text-base text-lg">
+                <p class="text-white text-xl max-[1300px]:text-lg font-extrabold mb-7">OUR BLOG</p>
                 <span class="grid gap-3.5">
                     <p>Stay Up To Date With New Arrivals, Stylist's Picks, Latest Trends, Exclusive Sales, And New
                         Stories On Our Blog. </p>
                     <span class="flex justify-center">
                         <input
-                            class="outline-0 bg-white text-secondary text-lg placeholder:text-placeholder pl-4 py-2 rounded-l-full"
+                            class="outline-0 bg-white text-secondary text-lg max-[1300px]:text-base placeholder:text-placeholder max-[1300px]:pl-2 pl-4 py-2 rounded-l-full"
                             type="text" placeholder="Email Address">
                         <button
-                            class="bg-subscribe pr-4 pl-1 py-2 text-white text-base rounded-r-full">SUBSCRIBE</button>
+                            class="bg-subscribe max-[1300px]:pr-2 pr-4 pl-1 py-2 text-white text-base max-[1300px]:text-sm rounded-r-full">SUBSCRIBE</button>
                     </span>
                 </span>
+            </span>
+        </div>
 
         </div>
         <div class="w-window m-auto flex justify-between items-end font-roboto text-footer pb-3">
@@ -461,7 +486,7 @@
                 </span>
             </span>
         </div>
-    </footer>
+    </footer> -->
     </div>
     <script src="script.js"></script>
 </body>
