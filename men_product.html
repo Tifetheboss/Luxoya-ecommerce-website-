@@ -16,32 +16,48 @@
 <body class="bg-primary">
     <div id="container">
         <nav
-            class=" w-window  m-auto text-secondary font-roboto border-b-secondary border-b flex justify-between items-center pt-10 pb-4 text-lg ">
-            <span class="  ">
-                <p class="font-bold text-3xl">LUXOYA</p>
+            class="w-window m-auto max-[1024px]:w-full text-secondary font-roboto border-b-secondary border-b flex justify-between items-center pt-10 max-[1024px]:pt-4 pb-4 text-lg relative max-[1024px]:px-6">
+            <span class="flex items-center">
+                <nav class="min-[1024px]:hidden">
+                    <div class="hamb">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="nav2">
+                        <ul id="tags" class="text-xl flex flex-col">
+                            <li></li>
+                        </ul>
+                    </span>
+                </nav>
+                <p class="font-bold text-3xl max-[1024px]:hidden">LUXOYA</p>
             </span>
-            <span class="max-[1300px]:ml-10 ml-40 max-[1300px]:mr-4 flex font-medium">
+            <span class="max-[1300px]:ml-10 ml-40 max-[1300px]:mr-4 flex font-medium max-[1024px]:hidden">
                 <a href="/men.html" class="hover:border-b-2 hover:border-secondary">MEN</a>
                 <a href="/women.html" class="hover:border-b-2 hover:border-secondary mx-10">WOMEN</a>
                 <a href="/accessories.html" class="hover:border-b-2 hover:border-secondary">ACCESSORIES</a>
             </span>
-            <span class="flex items-center">
+            <span class="flex items-center justify-center">
                 <span class="relative mr-5">
-                    <button class="absolute top-0 left-0 w-6 pl-2 h-full">
-                        <img id="search-img" src="/img/nav-img/Vector (11).png" alt="search-img">
+                    <button class="absolute top-0 left-0 w-6 pl-2 h-full max-[1024px]:hidden">
+                        <img id="search-img" src="/img/nav-img/Vector (11).png" alt="search-img" />
                     </button>
-                    <input class="w-full h-full outline-none block bg-inputbg pl-8 pr-7  py-1 rounded-2xl" type="text"
-                        placeholder="Search Luxoya">
-                    <button class="absolute top-0 right-0 w-6 h-full">
-                        <img id="mic-img" src="/img/nav-img/Vector (12).png" alt="mic-icon">
+                    <input class="w-full h-full outline-none block bg-inputbg pl-8 pr-7 py-1 rounded-2xl max-[1024px]:hidden" type="text"
+                        placeholder="Search Luxoya" />
+                    <button class="absolute top-0 right-0 w-6 h-full max-[1024px]:hidden">
+                        <img id="mic-img" src="/img/nav-img/Vector (12).png" alt="mic-icon" />
                     </button>
                 </span>
+                <button class="min-[1024px]:hidden mr-5">
+                    <img class="search-img" src="/img/nav-img/Vector (21).png" alt="">
+                </button>
                 <button>
-                    <img id="bag-img" src="/img/nav-img/Group (1).png" alt="bag-icon">
+                    <img id="bag-img" src="/img/nav-img/Group (1).png" alt="bag-icon" />
                 </button>
                 <button class="border-secondary ml-5 py-1 px-5 border"><a href="login.html">LOGIN</a></button>
             </span>
         </nav>
+
 
 
         <main>
