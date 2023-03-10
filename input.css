@@ -21,7 +21,6 @@ body {
   }
 }
 
-<<<<<<< HEAD
 .hamb{
   width: 29px;
   height: 20px;
@@ -105,13 +104,12 @@ top: 0;
 #bag-img, #mic-img, #search-img, .search-img{
     width: 18px;
     height: 18px;
-=======
-#bag-img,
+}
+    #bag-img,
 #mic-img,
 #search-img {
   width: 18px;
   height: 18px;
->>>>>>> e66ed72f07c5129de838c68bb4020b9f46a5c99a
 }
 
 #bag-img,
