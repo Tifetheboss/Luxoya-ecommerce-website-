@@ -17,11 +17,13 @@ body {
   #time-div {
     padding: 24px 24px;
   }
+
   @media screen and (max-width:1225px) {
     #time-div {
       padding: 14px 14px;
     }
   }
+
   @media screen and (max-width:1024px) {
     #time-div {
       padding: 6px 14px;
@@ -29,7 +31,7 @@ body {
   }
 }
 
-.hamb{
+.hamb {
   width: 29px;
   height: 20px;
   left: 0%;
@@ -38,58 +40,58 @@ body {
   cursor: pointer;
 }
 
-.hamb span{
+.hamb span {
   display: block;
   background-color: #34251F;
   width: 100%;
   height: 3px;
   transition: .60s;
-  transition-property: transform,opacity;
+  transition-property: transform, opacity;
 }
 
-.hamb span:nth-child(2){
+.hamb span:nth-child(2) {
   margin: 8px 0px;
 }
 
-.click{
+.click {
   z-index: 10008;
 }
 
-.click span{
+.click span {
   background-color: #FAF6F2;
   position: absolute;
   margin-top: 12px;
 }
 
-.click span:first-child{
+.click span:first-child {
   transform: rotate(-40deg);
 }
 
 
-.click span:nth-child(2){
+.click span:nth-child(2) {
   opacity: 0;
   margin: 0;
 }
 
-.click span:last-child{
+.click span:last-child {
   transform: rotate(40deg);
-top: 0;
+  top: 0;
 }
 
-.nav2{
-    position:fixed;
-    background-color:#34251F;
-    width: 250px;
-    height: 100vh;
+.nav2 {
+  position: fixed;
+  background-color: #34251F;
+  width: 250px;
+  height: 100vh;
   left: -1110.4%;
-    top:0%;
-    z-index: 10001;  
-    display: flex;
-    justify-content: space-evenly;
-    transition: all .25s ease; 
+  top: 0%;
+  z-index: 10001;
+  display: flex;
+  justify-content: space-evenly;
+  transition: all .25s ease;
 }
 
-.nav2.open{
+.nav2.open {
   left: 0%;
 }
 
@@ -109,11 +111,15 @@ top: 0;
     font-weight: 600;
 } */
 
-#bag-img, #mic-img, #search-img, .search-img{
-    width: 18px;
-    height: 18px;
+#bag-img,
+#mic-img,
+#search-img,
+.search-img {
+  width: 18px;
+  height: 18px;
 }
-    #bag-img,
+
+#bag-img,
 #mic-img,
 #search-img {
   width: 18px;
@@ -209,8 +215,8 @@ top: 0;
   left: 50%;
   top: 65%;
   transform: translate(-50%, -50%);
- width: 200px;
- line-height: 45px;
+  width: 200px;
+  line-height: 45px;
 }
 
 #frame2-btn {
@@ -264,9 +270,10 @@ top: 0;
   #vector-14 {
     width: 100px;
   }
+
   /* .vector2-14 { */
-    width: 100px;
-  
+  width: 100px;
+
 
 }
 
@@ -275,37 +282,38 @@ top: 0;
     height: 450px;
     width: 250px;
   }
+
   .brand {
     height: 90px;
   }
 }
 
-@media screen and (max-width:874px){
-  
-#frame {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(255, 255, 255, 0.8);
-  height: 200px;
-  width: 200px;
-}
+@media screen and (max-width:874px) {
 
-#footer2{
-  width: 50%;
-  text-align: start;
-}
+  #frame {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.8);
+    height: 200px;
+    width: 200px;
+  }
 
-#copyright{
-  width:100%
-}
+  #footer2 {
+    width: 50%;
+    text-align: start;
+  }
 
-#guides{
-  width:100%
-}
+  #copyright {
+    width: 100%
+  }
 
-/* #frame2 {
+  #guides {
+    width: 100%
+  }
+
+  /* #frame2 {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -337,31 +345,31 @@ top: 0;
   margin-bottom: 20%;
 /* } */
 
-#frame-icon{
-  width: 34px;
-  position: absolute;
-  left: 18%;
-  top: 35%;
-  transform: translate(-50%, -50%);
-}
+  #frame-icon {
+    width: 34px;
+    position: absolute;
+    left: 18%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+  }
 
-#frame-btn {
-  position: absolute;
-  left: 50%;
-  top: 65%;
-  transform: translate(-50%, -50%);
-  width: 140px;
-  line-height: 35px;
-}
+  #frame-btn {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    line-height: 35px;
+  }
 
-#frame2-btn{
-  margin-left: 34px;
-  font-size: 16px;
-}
+  #frame2-btn {
+    margin-left: 34px;
+    font-size: 16px;
+  }
 
-#frame3-btn{
-  margin-left:29px;
-}
+  #frame3-btn {
+    margin-left: 29px;
+  }
 
 }
 
@@ -371,7 +379,7 @@ top: 0;
     top: 98.5%;
   }
 
-  .second-section2 .vector-14{
+  .second-section2 .vector-14 {
     width: 68px;
     left: 10%;
     top: 100%;
@@ -381,16 +389,16 @@ top: 0;
     height: 55px;
   }
 
-  #footer2{
+  #footer2 {
     width: 100%;
-  
+
   }
 
-  
-#footer{
-  width: 100%;
-  text-align: start;
-}
+
+  #footer {
+    width: 100%;
+    text-align: start;
+  }
 }
 
 /* tife ends */
@@ -647,7 +655,8 @@ top: 0;
     font-size: 25px;
   }
 
-  .dot, .dot2{
+  .dot,
+  .dot2 {
     display: none;
   }
 
@@ -840,7 +849,7 @@ top: 0;
 
 @media only screen and (max-width: 576px) {
   .product {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .login {
