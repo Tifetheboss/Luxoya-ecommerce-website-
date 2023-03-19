@@ -9,62 +9,68 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/kepler-std-3" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="output.css">
     <title>Luxoya</title>
 </head>
 
-<body class="bg-primary">
+<style>
+    .signup{
+        width: 100%;
+        height: 80%;
+    }
+</style>
 
-    <main>
-        <div id="container" class="grid place-content-center">
-            <div class="login">
-                <div class="left">
-                    <br>
-                    <h1 class="transform font-kepler text-3xl">
-                        Welcome!!!
-                    </h1>
-                    <p class="text-2xl">To a new experience</p>
-                    <img src="img/menProduct/login.svg" alt="">
-                </div>
-                <div class="right">
-                    <h1 class="font-kepler text-6xl font-semibold">
-                        Sign up
-                    </h1>
-                    <form action="" method="post">
-                        <div>
-                            <div class="info">
-                                <input type="text" placeholder="Username">
-                            </div>
-                            <div class="info">
-                                <input type="email" placeholder="Email">
-                            </div>
-                            <div class="info">
-                                <input type="password" placeholder="Password">
-                            </div>
-                            <div class="check">
-                                <div>
-                                    <input type="checkbox" name="Rember Me" id="">
-                                    Remember Me
-                                </div>
-                            </div>
-                            <!-- button.info -->
-                            <div class="info btn_login uppercase">
-                                sign up
-                            </div>
-                            <div class="info btn_google">
-                                <i class="fab fa-google"></i> Sign up With Google
-                            </div>
-                            <div class="check">
-                                Don't have an account? <a href="login.html">Sign In</a>
-                            </div>
+<body class="bg-primary">
+    
+    <div id="container" class="grid">
+        <div class="login">
+            <div class="left">
+                <br>
+                <h1 class="transform font-kepler text-3xl">
+                    Welcome!!!
+                </h1>
+                <p class="text-2xl">To a new experience</p>
+                <img src="img/menProduct/signup.png" alt="" class="signup">
+            </div>
+            <div class="right">
+                <h1 class="font-kepler text-6xl font-semibold">
+                    Sign up
+                </h1>
+                <form action="" method="post">
+                    <div>
+                        <div class="info">
+                            <input type="text" placeholder="Username">
                         </div>
-                    </form>
-                </div>
+                        <div class="info">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="info">
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div class="check">
+                            <div>
+                                <input type="checkbox" name="Rember Me" id="">
+                                Remember Me
+                            </div>
+
+                        </div>
+                        <!-- button.info -->
+                        <div class="info btn_login">
+                            Sign Up
+                        </div>
+                        <div class="info btn_google">
+                            <i class="fab fa-google"></i> Sign Up With Google
+                        </div>
+                        <div class="check">
+                            Already have an account? <a href="login.html">Login Up</a>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
-
-    </main>
-
     </div>
 </body>
 
