@@ -37,3 +37,18 @@ hamburger.addEventListener('click', function() {
     nav.classList.toggle('open');
   });
 // hamb ends//
+
+// swiper js//
+    var swiper = new Swiper(".firstSwiper", {
+      cssMode: true,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+    });
