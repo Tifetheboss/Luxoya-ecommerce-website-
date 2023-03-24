@@ -18,6 +18,10 @@ module.exports = {
         placeholder: '#212121',
         subscribe: '#683B2B',
         greyish: '#D9D9D9',
+        review: '#F4E9D7',
+        review2: '#D49E8D',
+        review3: '#FFE1D4',
+        review4: '#EFE8F4',
       },
       //  npx tailwindcss -i ./input.css -o ./output.css --watch //
       fontFamily: {
