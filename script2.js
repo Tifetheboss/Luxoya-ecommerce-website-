@@ -43,12 +43,26 @@ var swiper = new Swiper(".firstSwiper", {
   cssMode: true,
   loop: true,
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-button-prev",
+    prevEl: ".swiper-button-next",
   },
   mousewheel: true,
   keyboard: true,
 });
+
+// var swiper = new Swiper(".firstSwiper", {
+//   // effect: "flip",
+//   grabCursor: true,
+//   // cssMode: true,
+//   // loop: true,
+//   pagination: {
+//     // el: ".swiper-pagination",
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// });
 
 //customer review swiperjs //
 var swiper = new Swiper(".container-content", {
