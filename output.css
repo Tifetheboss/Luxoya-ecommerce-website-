@@ -774,6 +774,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-20 {
+  gap: 5rem;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -1135,6 +1139,23 @@ body {
   overflow-x: hidden;
 }
 
+.admin{
+  min-height: 100vh;
+}
+
+.admin-container{
+  width: 100%;
+  position: relative;
+}
+
+.admin-nav{
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  background-color: #34251f;
+  border-right: 20px solid #34251f;
+}
+
 .hamb {
   width: 29px;
   height: 20px;
@@ -1214,7 +1235,7 @@ body {
     font-weight: 600;
 } */
 
-nav span nav span ul li:hover > ul{
+nav div li a ul:hover > li{
   background-color: #8d8883;
   display: initial;
 }
@@ -1269,7 +1290,13 @@ nav span nav span ul li:hover > ul{
   background: rgba(255, 255, 255, 0.8);
   height: 300px;
   width: 300px;
+  /* visibility: hidden; */
 }
+
+/* 
+#frame:hover{
+  visibility: visible;
+} */
 
 #frame2 {
   position: absolute;
@@ -1538,19 +1565,25 @@ nav span nav span ul li:hover > ul{
   display: flex;
   flex-direction: column;
   margin: 20px 20px;
-  padding: 50px 50px;
+  padding: 25px 20px;
   min-width: 300px;
+}
+
+.card-img{
+  display: grid;
+  place-content: center;
+  padding: 10px 10px;
 }
 
 .review {
   font-weight: 400;
-  padding: 25px 10px;
+  padding: 10px 10px;
   color: #34251f;
 }
 
 .name {
   font-weight: 700;
-  padding: 25px 10px;
+  padding: 10px 10px;
   color: #34251f;
 }
 
@@ -2150,6 +2183,10 @@ nav span nav span ul li:hover > ul{
 
   .max-\[1024px\]\:w-full {
     width: 100%;
+  }
+
+  .max-\[1024px\]\:justify-between {
+    justify-content: space-between;
   }
 
   .max-\[1024px\]\:px-24 {
