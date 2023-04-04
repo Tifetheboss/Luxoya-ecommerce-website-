@@ -30,19 +30,19 @@ body {
     }
   }
 }
-
+/* 
 .admin{
   min-height: 100vh;
-}
+} */
 
-.admin-container{
+/* .admin-container{
   width: 100%;
 position: relative;
-}
+} */
 
 .admin-nav{
  height: 100%;
- width: 300px;
+ width: 250px;
  position: fixed;
 background-color: #34251f;
 border-right: 20px solid #34251f;
@@ -127,9 +127,23 @@ border-right: 20px solid #34251f;
     font-weight: 600;
 } */
 
-nav div li a ul:hover > li{
-  background-color: #8d8883;
+ul li ul.dropdown{
+  display: none;
+ }
+
+ul li:hover ul.dropdown{
   display: initial;
+}
+
+.admin-hamb{
+  position: absolute;
+  width: calc(100% - 250px);
+  left: 250px;
+  margin: 10px;
+}
+
+.admin-nav{
+  color: #fff;
 }
 
 #bag-img,

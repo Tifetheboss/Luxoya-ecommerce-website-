@@ -50,20 +50,6 @@ var swiper = new Swiper(".firstSwiper", {
   keyboard: true,
 });
 
-// var swiper = new Swiper(".firstSwiper", {
-//   // effect: "flip",
-//   grabCursor: true,
-//   // cssMode: true,
-//   // loop: true,
-//   pagination: {
-//     // el: ".swiper-pagination",
-//   },
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-// });
-
 //customer review swiperjs //
 var swiper = new Swiper(".container-content", {
   spaceBetween: 0.1,
