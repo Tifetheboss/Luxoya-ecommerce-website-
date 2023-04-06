@@ -139,7 +139,7 @@ ul li:hover ul.dropdown{
   position: absolute;
   width: calc(100% - 250px);
   left: 250px;
-  margin: 10px;
+  margin: 16px;
 }
 
 .admin-nav{
