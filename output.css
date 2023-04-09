@@ -1145,7 +1145,7 @@ body {
 position: relative;
 } */
 
-.admin-nav{
+.admin-nav {
   height: 100%;
   width: 250px;
   position: fixed;
@@ -1232,22 +1232,22 @@ position: relative;
     font-weight: 600;
 } */
 
-ul li ul.dropdown{
+ul li ul.dropdown {
   display: none;
 }
 
-ul li:hover ul.dropdown{
+ul li:hover ul.dropdown {
   display: initial;
 }
 
-.admin-hamb{
+.admin-hamb {
   position: absolute;
   width: calc(100% - 250px);
   left: 250px;
   margin: 16px;
 }
 
-.admin-nav{
+.admin-nav {
   color: #fff;
 }
 
@@ -1580,7 +1580,7 @@ ul li:hover ul.dropdown{
   min-width: 300px;
 }
 
-.card-img{
+.card-img {
   display: grid;
   place-content: center;
   padding: 10px 10px;
@@ -2008,11 +2008,14 @@ ul li:hover ul.dropdown{
 }
 
 .right {
+  margin: auto 0;
   color: #34251f;
   padding: 40px;
   flex-direction: column;
   display: flex;
   gap: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
 .right a {
