@@ -907,7 +907,7 @@ ul li:hover ul.dropdown {
 }
 
 .right {
-  margin: auto 0;
+  /* margin: auto 0; */
   color: #34251f;
   padding: 40px;
   flex-direction: column;
@@ -915,10 +915,15 @@ ul li:hover ul.dropdown {
   gap: 15px;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .right a {
   text-decoration: underline;
+}
+
+.right form {
+  width: 100%;
 }
 
 .right .info input {
