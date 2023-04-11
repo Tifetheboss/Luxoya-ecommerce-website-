@@ -30,23 +30,6 @@ body {
     }
   }
 }
-/* 
-.admin{
-  min-height: 100vh;
-} */
-
-/* .admin-container{
-  width: 100%;
-position: relative;
-} */
-
-.admin-nav{
- height: 100%;
- width: 250px;
- position: fixed;
-background-color: #34251f;
-border-right: 20px solid #34251f;
-}
 
 .hamb {
   width: 29px;
@@ -127,12 +110,125 @@ border-right: 20px solid #34251f;
     font-weight: 600;
 } */
 
+/* admin begins */
+/* 
+#nav-toggle:checked + .admin-nav{
+  width: 50px;
+}
+
+
+#nav-toggle{
+  display: none;
+} */
+
+/* 
+.admin{
+  min-height: 100vh;
+} */
+
+/* .admin-container{
+  width: 100%;
+position: relative;
+} */
+
+.admin-nav{
+  height: 100vh;
+  width: 250px;
+  overflow-y: auto;
+  position: fixed;
+ background-color: #34251f;
+ }
+ 
+ @media screen and (min-height:642px) {
+   .admin-nav{
+ border-right: 20px solid #34251f;  
+ overflow: hidden;
+ }
+ .admin-btm{
+   border-top: 1px solid ;
+   position: absolute;
+   bottom:0;
+   width: 100%;
+   background-color: #34251f;
+ }
+ }
+ 
+ @media screen and (max-height:642px) {
+   .admin-nav{
+  overflow-y: auto;
+  overflow-x: hidden;
+ }
+ }
+
+ul li a > span{
+  margin-left: 14px;
+}
+
+ul li a{
+  margin-left: 14px;
+}
+
 ul li ul.dropdown{
   display: none;
  }
 
 ul li:hover ul.dropdown{
   display: initial;
+}
+
+ul li ul.dropdown > li :focus, ul li ul.dropdown > li:hover{
+  font-weight: 600;
+  transition:0.2s ease-out;
+}
+
+ul span > li:hover{
+  background-color: #fff;
+  color: #34251f;
+  transition: 0.4s ease-out;
+}
+
+ul span > li:hover > div > a, ul span > li:hover > a, ul span > li:hover > span > a {
+  font-weight: 600;
+}
+
+ul span > li:hover > div {
+  border-bottom: 5px solid #aa725e;
+}
+ul span > .no-dropdown:hover {
+  border-bottom: 5px solid #aa725e;
+}
+
+ul span > li:hover > div > a > img{
+  color: #34251f;
+  background: #34251f;
+}
+
+.dropdown{
+  position: relative;
+  left: 34px;
+  color:#aa725e;
+}
+
+::-webkit-scrollbar{
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+border-radius: 10px;
+background: #d9d9d9;
+}
+
+.admin-features, .admin-features > span > li{
+ padding-top: 12px;
+ padding-bottom: 12px;
+}
+
+ul span > li:hover > div, .admin-features > span > li:hover{
+  padding-bottom: 7px;
+}
+
+.admin-pic{
+  margin-right: 14px;
 }
 
 .admin-hamb{
@@ -145,12 +241,23 @@ ul li:hover ul.dropdown{
 .admin-nav{
   color: #fff;
 }
-
+/* 
+.luxoya-logo{
+  width: 60px;
+  height: 60px;
+  background-color: #faf6f2;
+} */
+/* admin ends */
 #bag-img,
 #mic-img,
 #search-img,
-.search-img {
+.search-img{
   width: 18px;
+  height: 18px;
+}
+
+.admin-icons{
+  width: 20px;
   height: 18px;
 }
 

@@ -14,63 +14,63 @@
 <body class="admin">
     <div class="admin-container">
     <!-- side bar -->
+    <!-- <input type="checkbox" id="nav-toggle"> -->
 <nav class="font-roboto text-base admin-nav">
     <ul>
         <li class="py-4">
-            <a  href="">
-                <img src="" alt="">
+            <span  class="flex">
+                <img class="luxoya-logo" src="" alt="">
                 <span class=" text-3xl font-medium uppercase">Luxoya</span>
-            </a>
+            </span>
         </li>
 
         <li>
-            <a class="flex items-center justify-center py-4 border-y" href="">
-                <img class="mr-5" src="/img/admin-icons/Ellipse 41 (1).png" alt="">
+            <span class="flex items-center justify-center py-4 border-y" href="">
+                <img class="admin-pic" src="/img/admin-icons/Ellipse 41 (1).png" alt="">
                 <span>
                     <p class="font-medium">Username </p> 
                 <p class="text-sm text-greyish">example@gmail.com</p>
                 </span>                
-            </a>
+            </span>
         </li>
 
-        <div class="">
-     <span class="my40">
-        
-        <li>
-            <a class="flex items-center" href="">
-                <img src="/img/admin-icons/Vector (23).png" alt="">
-                <span>
+        <div class="admin-features ">
+     <span>        
+        <li class="hover:bg-white   no-dropdown">
+            <a class="flex items-center " href="">
+                <img class="admin-icons" src="/img/admin-icons/Vector (23).png" alt="">
+                <span class="pl10">
                     Dashboard
                 </span>                
             </a>
         </li>    
 
         <li>
-            <div class="flex items-center">
+            <div class="flex justify-between items-center">
             <a class="flex items-center" href="">
-                <img src="/img/admin-icons/Vector (24).png" alt="">
+                <img class="admin-icons" src="/img/admin-icons/Vector (33).png" alt="">
                 <span> 
                     Orders 
                 </span>
             </a>
-            <img src="/img/admin-icons/Vector (32).png" alt="">
+            <img id="arrow" class="pr-4" src="/img/admin-icons/Vector (32).png" alt="">
         </div>
-            <ul class="dropdown"> 
-            <li><a href="">Order History</a></li>
+        <ul class="dropdown"> 
+            <li class="pt-6"><a href="">Order History</a></li>
             <li><a href="">Order Tracking</a></li>
             <li><a href="">Invoice</a></li>
         </ul>
     </li>
 
-    <li>
-        <div class="flex items-center">
+<li>
+        <div class="flex justify-between  items-center">
         <a class="flex items-center" href="">
-            <img src="/img/admin-icons/Vector (24).png" alt="">
+            <img class="admin-icons" src="/img/admin-icons/Vector (24).png" alt="">
             <span> 
                 Products 
             </span>
         </a>
-        <img src="/img/admin-icons/Vector (32).png" alt="">
+        <img id="arrow" class="pr-4" src="/img/admin-icons/Vector (32).png" alt="">
 </div>
         <ul class="dropdown"> 
         <li><a href="">Add New Products</a></li>
@@ -79,14 +79,14 @@
 </li>
 
 <li>
-    <div class="flex items-center">
+    <div class="flex items-center justify-between">
     <a class="flex items-center" href="">
-        <img src="/img/admin-icons/Vector (25).png" alt="">
+        <img class="admin-icons" src="/img/admin-icons/Vector (25).png" alt="">
         <span> 
             Analytics 
         </span>
     </a>
-    <img src="/img/admin-icons/Vector (32).png" alt="">
+    <img id="arrow" class="pr-4" src="/img/admin-icons/Vector (32).png" alt="">
 </div>
 <ul class="dropdown"> 
     <li><a href="">Website</a></li>
@@ -96,14 +96,14 @@
 </li>
 
 <li>
-    <div class="flex items-center">
+    <div class="flex items-center justify-between ">
     <a class="flex items-center" href="">
-        <img src="/img/admin-icons/Vector (26).png" alt="">
+        <img class="admin-icons" src="/img/admin-icons/Vector (26).png" alt="">
         <span> 
             Payments 
         </span>
     </a>
-    <img src="/img/admin-icons/Vector (32).png" alt="">
+    <img id="arrow" class="pr-4" src="/img/admin-icons/Vector (32).png" alt="">
 </div>
     <ul class="dropdown"> 
     <li><a href="">All Transactions</a></li>
@@ -111,56 +111,60 @@
 </ul>
 </li>
 
-<li>
+<li class=" no-dropdown">
     <a class="flex items-center" href="">
-        <img src="/img/admin-icons/Vector (27).png" alt="">
+        <img class="admin-icons" src="/img/admin-icons/Vector (27).png" alt="">
         <span>Customers</span>
     </a>
 </li>
 
-<li>
+<li class=" no-dropdown">
     <a class="flex items-center" href="">
-        <img src="/img/admin-icons/Vector (28).png" alt="">
+        <img class="admin-icons" src="/img/admin-icons/Vector (28).png" alt="">
         <span>Inventory</span>
     </a>
 </li>
 
-<li>
+<li class=" no-dropdown">
+    <span class=" flex justify-between items-center">
     <a class="flex items-center" href="">
-        <img src="/img/admin-icons/Vector (29).png" alt="">
+        <img class="admin-icons" src="/img/admin-icons/Vector (29).png" alt="">
         <span>Messages</span>
-        <img src="/img/admin-icons/Frame 225.png" alt="">
     </a>
+    <img class="pr-4" src="/img/admin-icons/Frame 225.png" alt="">
+</span>
 </li>
 </span>
 
-<span>
-<li>
+<span class="admin-btm">
+<li class=" no-dropdown">
     <a class="flex items-center" href="">
-        <img src="/img/admin-icons/Vector (30).png" alt="">
+        <img class="admin-icons" src="/img/admin-icons/Vector (30).png" alt="">
         <span>Settings</span>
     </a>
 </li>
 
 
-<li>
+<li class=" no-dropdown">
     <a class="flex items-center" href="">
-        <img src="/img/admin-icons/Vector (31).png" alt="">
+        <img class="admin-icons" src="/img/admin-icons/Vector (31).png" alt="">
         <span>Logout</span>
     </a>
 </li>
-    </ul>
 </span>
 </div>
+</ul>
 </nav>
 
 <main>
     <nav class="admin-hamb">
-        <div class="hamb">
+        <!-- <label for="nav-toggle"> -->
+        <div class="hamb" >
             <span></span>
             <span></span>
             <span></span>
         </div>
+        <!-- </label> -->
         <!-- <span class="nav2">
             <ul id="tags" class="text-xl text-primary flex flex-col">
              
