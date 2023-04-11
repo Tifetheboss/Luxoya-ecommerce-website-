@@ -30,6 +30,27 @@ body {
     }
   }
 }
+<<<<<<< HEAD
+=======
+
+/* 
+.admin{
+  min-height: 100vh;
+} */
+
+/* .admin-container{
+  width: 100%;
+position: relative;
+} */
+
+.admin-nav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  background-color: #34251f;
+  border-right: 20px solid #34251f;
+}
+>>>>>>> 24cfa6920a15439209ea0a2a70b7238d647dfbd7
 
 .hamb {
   width: 29px;
@@ -110,6 +131,7 @@ body {
     font-weight: 600;
 } */
 
+<<<<<<< HEAD
 /* admin begins */
 /* 
 #nav-toggle:checked + .admin-nav{
@@ -169,13 +191,17 @@ ul li a{
 }
 
 ul li ul.dropdown{
+=======
+ul li ul.dropdown {
+>>>>>>> 24cfa6920a15439209ea0a2a70b7238d647dfbd7
   display: none;
- }
+}
 
-ul li:hover ul.dropdown{
+ul li:hover ul.dropdown {
   display: initial;
 }
 
+<<<<<<< HEAD
 ul li ul.dropdown > li :focus, ul li ul.dropdown > li:hover{
   font-weight: 600;
   transition:0.2s ease-out;
@@ -232,13 +258,16 @@ ul span > li:hover > div, .admin-features > span > li:hover{
 }
 
 .admin-hamb{
+=======
+.admin-hamb {
+>>>>>>> 24cfa6920a15439209ea0a2a70b7238d647dfbd7
   position: absolute;
   width: calc(100% - 250px);
   left: 250px;
   margin: 16px;
 }
 
-.admin-nav{
+.admin-nav {
   color: #fff;
 }
 /* 
@@ -587,7 +616,7 @@ ul span > li:hover > div, .admin-features > span > li:hover{
   min-width: 300px;
 }
 
-.card-img{
+.card-img {
   display: grid;
   place-content: center;
   padding: 10px 10px;
@@ -1013,15 +1042,23 @@ ul span > li:hover > div, .admin-features > span > li:hover{
 }
 
 .right {
+  /* margin: auto 0; */
   color: #34251f;
   padding: 40px;
   flex-direction: column;
   display: flex;
   gap: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .right a {
   text-decoration: underline;
+}
+
+.right form {
+  width: 100%;
 }
 
 .right .info input {
