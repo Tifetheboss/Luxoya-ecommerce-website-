@@ -1135,8 +1135,6 @@ body {
   overflow-x: hidden;
 }
 
-<<<<<<< HEAD
-=======
 /* 
 .admin{
   min-height: 100vh;
@@ -1155,7 +1153,6 @@ position: relative;
   border-right: 20px solid #34251f;
 }
 
->>>>>>> 24cfa6920a15439209ea0a2a70b7238d647dfbd7
 .hamb {
   width: 29px;
   height: 20px;
@@ -1235,33 +1232,23 @@ position: relative;
     font-weight: 600;
 } */
 
-<<<<<<< HEAD
 /* admin begins */
 
-#nav-toggle:checked + .admin-nav{
-  width: 50px;
+.admin-main.active{
+  margin-left: 54px;
 }
 
 #nav-toggle{
   display: none;
 }
 
-/* 
-.admin{
-  min-height: 100vh;
-} */
+#nav-toggles{
+  display: none;
+}
 
-/* .admin-container{
-  width: 100%;
-position: relative;
-} */
-
-.admin-nav{
-  height: 100vh;
-  width: 250px;
-  overflow-y: auto;
-  position: fixed;
-  background-color: #34251f;
+.admin-main{
+  margin-left: 250px;
+  /* min-height: 100vh; */
 }
 
 @media screen and (min-height:642px) {
@@ -1290,14 +1277,34 @@ ul li a > span{
   margin-left: 14px;
 }
 
+@media screen and (min-width:577px) {
+  .admin-nav.active{
+    width: 54px;
+    border-right: none;
+  }
+
+  .admin-nav.active ul li > span > span , 
+.admin-nav.active ul li a > span,
+.admin-nav.active ul li div #arrow,
+.admin-nav.active ul li span #msg,
+.admin-nav.active .dropdown{
+    display: none;
+  }
+
+  .admin-nav.active .admin-features > span > li:hover{
+    padding-bottom: 0px;
+  }
+
+  .admin-nav.active ul span > .no-dropdown:hover {
+    padding-bottom: 7px;
+  }
+}
+
 ul li a{
   margin-left: 14px;
 }
 
-ul li ul.dropdown{
-=======
 ul li ul.dropdown {
->>>>>>> 24cfa6920a15439209ea0a2a70b7238d647dfbd7
   display: none;
 }
 
@@ -1305,7 +1312,6 @@ ul li:hover ul.dropdown {
   display: initial;
 }
 
-<<<<<<< HEAD
 ul li ul.dropdown > li :focus, ul li ul.dropdown > li:hover{
   font-weight: 600;
   transition:0.2s ease-out;
@@ -1336,7 +1342,7 @@ ul span > li:hover > div > a > img{
 
 .dropdown{
   position: relative;
-  left: 34px;
+  left: 38px;
   color:#aa725e;
 }
 
@@ -1362,14 +1368,16 @@ ul span > li:hover > div, .admin-features > span > li:hover{
   margin-right: 14px;
 }
 
+.admin-nav.active .admin-pic{
+  margin-left: px;
+}
+
 .admin-hamb{
-=======
-.admin-hamb {
->>>>>>> 24cfa6920a15439209ea0a2a70b7238d647dfbd7
   position: absolute;
   width: calc(100% - 250px);
-  left: 250px;
-  margin: 16px;
+  /* left: 250px; */
+  margin-left: 14px;
+  margin-top: 10px;
 }
 
 .admin-nav {
@@ -1383,6 +1391,31 @@ ul span > li:hover > div, .admin-features > span > li:hover{
   background-color: #faf6f2;
 } */
 
+@media screen and (max-width:577px) {
+  .admin-nav{
+    left: -250px;
+  }
+
+  .admin-nav.active{
+    left: 0px;
+    width: 100%;
+    z-index: 10000;
+  }
+
+  .admin-main{
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .admin-main.active .toggle{
+    position: fixed;
+    right: 3%;
+    left: initial;
+    color: #fff;
+    z-index: 10001;
+  }
+}
+
 /* admin ends */
 
 #bag-img,
@@ -1393,9 +1426,15 @@ ul span > li:hover > div, .admin-features > span > li:hover{
   height: 18px;
 }
 
+#hamb{
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
 .admin-icons{
-  width: 20px;
-  height: 18px;
+  min-width: 24px;
+  height: 24px;
 }
 
 #img-1 {
