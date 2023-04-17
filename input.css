@@ -31,24 +31,6 @@ body {
   }
 }
 
-/* 
-.admin{
-  min-height: 100vh;
-} */
-
-/* .admin-container{
-  width: 100%;
-position: relative;
-} */
-
-.admin-nav {
-  height: 100%;
-  width: 250px;
-  position: fixed;
-  background-color: #34251f;
-  border-right: 20px solid #34251f;
-}
-
 .hamb {
   width: 29px;
   height: 20px;
@@ -128,77 +110,67 @@ position: relative;
     font-weight: 600;
 } */
 
-
 /* admin begins */
 
-.admin-main.active{  
+.admin-main.active {
   margin-left: 54px;
+  transition: 0.4s;
 }
 
-
-#nav-toggle{
-  display: none;
-}
-
-#nav-toggles{
-  display: none;
-}
-
- .admin-main{
+.admin-main {
+  transition: 0.4s;
   margin-left: 250px;
-  /* min-height: 100vh; */
 }
 
- @media screen and (min-height:642px) {
-   .admin-nav{
- border-right: 20px solid #34251f;  
- overflow: hidden;
- }
- .admin-btm{
-   border-top: 1px solid ;
-   position: absolute;
-   bottom:0;
-   width: 100%;
-   background-color: #34251f;
- }
- }
- 
- @media screen and (max-height:642px) {
-   .admin-nav{
-  overflow-y: auto;
-  overflow-x: hidden;
- }
- }
+@media screen and (min-height: 642px) {
+  .admin-nav {
+    border-right: 20px solid #34251f;
+    overflow: hidden;
+  }
+  .admin-btm {
+    border-top: 1px solid;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #34251f;
+  }
+}
 
-ul li a > span{
+@media screen and (max-height: 642px) {
+  .admin-nav {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+ul li a > span {
   margin-left: 14px;
 }
 
-
-@media screen and (min-width:577px) {
-  .admin-nav.active{
-    width: 54px; 
+@media screen and (min-width: 577px) {
+  .admin-nav.active {
+    width: 54px;
     border-right: none;
   }
 
-.admin-nav.active ul li > span > span , 
-.admin-nav.active ul li a > span,
-.admin-nav.active ul li div #arrow,
-.admin-nav.active ul li span #msg,
-.admin-nav.active .dropdown{
- display: none;
+  .admin-nav.active ul li > span > span,
+  .admin-nav.active ul li a > span,
+  .admin-nav.active ul li div #arrow,
+  .admin-nav.active ul li span #msg,
+  .admin-nav.active .dropdown {
+    display: none;
+  }
+
+  .admin-nav.active .admin-features > span > li:hover {
+    padding-bottom: 0px;
+  }
+
+  .admin-nav.active ul span > .no-dropdown:hover {
+    padding-bottom: 7px;
+  }
 }
 
-.admin-nav.active .admin-features > span > li:hover{
-padding-bottom: 0px;
-}
-
-.admin-nav.active ul span > .no-dropdown:hover {
-  padding-bottom: 7px;
-}
-}
-
-ul li a{
+ul li a {
   margin-left: 14px;
 }
 
@@ -210,18 +182,21 @@ ul li:hover ul.dropdown {
   display: initial;
 }
 
-ul li ul.dropdown > li :focus, ul li ul.dropdown > li:hover{
+ul li ul.dropdown > li :focus,
+ul li ul.dropdown > li:hover {
   font-weight: 600;
-  transition:0.2s ease-out;
+  transition: 0.2s ease-out;
 }
 
-ul span > li:hover{
+ul span > li:hover {
   background-color: #fff;
   color: #34251f;
   transition: 0.4s ease-out;
 }
 
-ul span > li:hover > div > a, ul span > li:hover > a, ul span > li:hover > span > a {
+ul span > li:hover > div > a,
+ul span > li:hover > a,
+ul span > li:hover > span > a {
   font-weight: 600;
 }
 
@@ -232,54 +207,65 @@ ul span > .no-dropdown:hover {
   border-bottom: 5px solid #aa725e;
 }
 
-ul span > li:hover > div > a > img{
+ul span > li:hover > div > a > img {
   color: #34251f;
   background: #34251f;
 }
 
-.dropdown{
+.dropdown {
   position: relative;
   left: 38px;
-  color:#aa725e;
+  color: #aa725e;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 6px;
 }
 
-::-webkit-scrollbar-thumb{
-border-radius: 10px;
-background: #d9d9d9;
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #d9d9d9;
 }
 
-.admin-features, .admin-features > span > li{
- padding-top: 12px;
- padding-bottom: 12px;
+.admin-features,
+.admin-features > span > li {
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
-ul span > li:hover > div, .admin-features > span > li:hover{
+ul span > li:hover > div,
+.admin-features > span > li:hover {
   padding-bottom: 7px;
 }
 
-.admin-pic{
+.admin-pic {
   margin-right: 14px;
 }
 
-.admin-nav.active .admin-pic{
-  margin-left: px;
+.admin-nav.active .admin-owner {
+  padding-left: 6px;
 }
 
-.admin-hamb{
+.admin-owner {
+  padding-left: 10px;
+}
+
+.admin-hamb {
   position: absolute;
   width: calc(100% - 250px);
-  /* left: 250px; */
   margin-left: 14px;
   margin-top: 10px;
 }
 
 .admin-nav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  background-color: #34251f;
   color: #fff;
+  transition: 0.4s;
 }
+
 /* 
 .luxoya-logo{
   width: 60px;
@@ -287,47 +273,50 @@ ul span > li:hover > div, .admin-features > span > li:hover{
   background-color: #faf6f2;
 } */
 
-@media screen and (max-width:577px) {
-  .admin-nav{
+@media screen and (max-width: 577px) {
+  .admin-nav {
     left: -250px;
   }
 
-  .admin-nav.active{
+  .admin-nav.active .admin-owner {
+    padding-left: 10px;
+  }
+
+  .admin-nav.active {
     left: 0px;
     width: 100%;
     z-index: 10000;
   }
 
-  .admin-main{
+  .admin-main {
     margin-left: 0px;
     width: 100%;
   }
-  
- .admin-main.active .toggle{
-  position: fixed;
-  right: 3%;
-  left: initial;
-  color: #fff;
-  z-index: 10001;
-}
-}
 
+  .admin-main.active .toggle {
+    position: fixed;
+    right: 3%;
+    left: initial;
+    color: #fff;
+    z-index: 10001;
+  }
+}
 /* admin ends */
 #bag-img,
 #mic-img,
 #search-img,
-.search-img{
+.search-img {
   width: 18px;
   height: 18px;
 }
 
-#hamb{
- width: 45px;
- height: 45px;
- cursor: pointer;
+#hamb {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
 }
 
-.admin-icons{
+.admin-icons {
   min-width: 24px;
   height: 24px;
 }
@@ -460,7 +449,6 @@ ul span > li:hover > div, .admin-features > span > li:hover{
   height: 150px;
 }
 
-
 @media screen and (max-width: 1300px) {
   #vector-13 {
     width: 80px;
@@ -512,9 +500,8 @@ ul span > li:hover > div, .admin-features > span > li:hover{
     visibility: hidden;
   }
 
-
   #guides {
-    width: 100%
+    width: 100%;
   }
 
   #frame-icon {
@@ -863,7 +850,7 @@ ul span > li:hover > div, .admin-features > span > li:hover{
   display: none;
 }
 
-.each-category .shop-now:hover+.overlay {
+.each-category .shop-now:hover + .overlay {
   display: block;
 }
 
